@@ -12,60 +12,50 @@ html {
 
 body {
     background-color: black;
-    max-width: 144rem;
     color: white;
 }
 
-.nft {
-    width: 30rem;
-    height: 30rem;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 11px;
+.container {
+    background-color: hsl(217, 54%, 11%);
+    max-width: 144rem;
+    margin: 0rem 20rem;
+    height: 100vh;
+    position: relative;
 }
 
 .card {
-    margin: 2rem auto;
-    background-color: hsl(217, 54%, 11%);
-    width: 38rem;
-    height: 65rem;
-    padding: 6rem 2rem;
-}
-
-.card-nft {
+    width: 28rem;
+    height: 48rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: hsl(216, 50%, 16%);
-    border-radius: 21px;
-    padding: 2rem;
-    height: 50rem;
+    border-radius: 11px;
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.2);
 }
 
-.card-title {
-    padding: 1.2rem;
-    font-size: 2.4rem;
+.card__img-container {
+    width: 25rem;
+    height: 25rem;
+    /* padding: 1rem;
+    position: relative; */
 }
 
-.nft-description {
-    font-size: 1.6rem;
-    padding: 1.2rem;
-    line-height: 1.5;
+.card__img {
+    width: 100%;
+    padding: 1.8rem;
 }
 
-.price-time {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.2rem;
+.card__title {
+    padding: 0.8rem 1.8rem;
     font-size: 1.6rem;
 }
 
-.price {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card__description {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.2rem;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.6;
+    letter-spacing: 1px;
 }
