@@ -25,7 +25,7 @@ body {
 
 .card {
     width: 28rem;
-    height: 48rem;
+    height: 49rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -58,4 +58,76 @@ body {
     color: hsl(215, 51%, 70%);
     line-height: 1.6;
     letter-spacing: 1px;
+}
+
+.price-time {
+    padding: 0.8rem 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-1 {
+    transform: scale(0.8);
+}
+
+.value {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.value {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.eth {
+    color: #00fff8;
+}
+
+.days {
+    color: #8bacd9;
+}
+
+.limiter {
+    height: 1px;
+    width: 24.4rem;
+    background-color: hsl(215, 32%, 27%);
+    display: block;
+    margin-top: 2rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 1.8rem;
+    gap: 2rem;
+}
+
+.author-avatar {
+    width: 2.5rem;
+    height: 2, 5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-size: 1.2rem;
+}
+
+.shaded {
+    color: #8bacd9;
+}
+
+.attribution {
+    padding-top: 2rem;
 }
